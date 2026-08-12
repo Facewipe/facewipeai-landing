@@ -1,112 +1,156 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TraceAI by Facewipe LTD</title>
-  <meta name="description" content="TraceAI is an AI-assisted privacy and media integrity system by Facewipe LTD.">
+  <title>TraceAI — Visual Evidence Search by Facewipe LTD</title>
+  <meta name="description" content="TraceAI turns a reference photo into source-linked public visual evidence leads for human review.">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <div class="brand">
+      <a class="brand" href="#top" aria-label="Facewipe LTD home">
         <span class="brand-mark">F</span>
         <span>Facewipe LTD</span>
+      </a>
+      <div class="header-actions">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span class="status">Working cloud prototype</span>
+        <a class="header-link" href="https://app.facewipeai.com">Open TraceAI</a>
       </div>
-      <div class="status">Patent Application Filed / Working Prototype</div>
     </div>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
       <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">AI Privacy and Media Integrity System</p>
+        <div class="hero-copy">
+          <p class="eyebrow">Visual-first public evidence search</p>
           <h1>TraceAI</h1>
           <p class="hero-text">
-            TraceAI is an AI-assisted system focused on image provenance, duplicate detection,
-            altered media review, false positive reduction, and lawful evidence support for
-            unauthorised image reuse.
+            Start with a reference photo. TraceAI searches for possible visual matches,
+            preserves public source links and context, and turns scattered findings into
+            structured evidence leads for human review.
           </p>
           <div class="hero-actions">
-            <a class="button" href="mailto:contact@facewipeai.com">Contact Facewipe LTD</a>
-            <span class="note">Prototype walkthrough available on request.</span>
+            <a class="button" href="https://app.facewipeai.com">Try TraceAI</a>
+            <a class="button button-secondary" href="mailto:contact@facewipeai.com">Contact Facewipe LTD</a>
           </div>
+          <p class="microcopy">No automatic identity, ownership, infringement, or takedown conclusions.</p>
         </div>
 
-        <div class="hero-card">
-          <h2>Working technical prototype</h2>
-          <p>
-            TraceAI is currently under active development and is moving toward MVP hardening,
-            cloud deployment, reliability testing, and safer evidence workflow development.
-          </p>
-        </div>
+        <aside class="hero-card" aria-label="TraceAI workflow">
+          <div class="workflow-step">
+            <span class="step-number">01</span>
+            <div>
+              <strong>Reference photo</strong>
+              <p>Use one or more photos of the same person as the visual starting point.</p>
+            </div>
+          </div>
+          <div class="workflow-line"></div>
+          <div class="workflow-step">
+            <span class="step-number">02</span>
+            <div>
+              <strong>Visual search</strong>
+              <p>Review possible public visual matches and source routes.</p>
+            </div>
+          </div>
+          <div class="workflow-line"></div>
+          <div class="workflow-step">
+            <span class="step-number">03</span>
+            <div>
+              <strong>Evidence leads</strong>
+              <p>Keep source URLs, context, confidence signals, and review status together.</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <span>Source-linked results</span>
+        <span>Human review required</span>
+        <span>Bounded public discovery</span>
+        <span>Privacy-aware workflow</span>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <h2>What TraceAI Does</h2>
+        <p class="section-label">Product</p>
+        <h2>From a photo to a reviewable public trail</h2>
         <p class="section-intro">
-          TraceAI is being developed to help identify possible visual evidence leads and
-          organise them for human review.
+          General web search often returns fragmented links and uncertain visual clues. TraceAI is
+          designed to organise those clues into a safer, source-linked review workflow.
         </p>
 
         <div class="cards">
           <article class="card">
-            <h3>Image provenance and source/context review</h3>
-            <p>Supports review of visual media sources and surrounding context.</p>
+            <span class="card-kicker">Search</span>
+            <h3>Public visual discovery</h3>
+            <p>Acquires possible public image and profile routes from visual-search and controlled public sources.</p>
           </article>
 
           <article class="card">
-            <h3>Duplicate and near-duplicate detection</h3>
-            <p>Helps review duplicate and near-duplicate visual material.</p>
+            <span class="card-kicker">Compare</span>
+            <h3>Face-assisted review</h3>
+            <p>Possible candidates are independently compared against the reference photos before qualification.</p>
           </article>
 
           <article class="card">
-            <h3>Altered media review</h3>
-            <p>Supports review of possible altered or modified media items.</p>
+            <span class="card-kicker">Evidence</span>
+            <h3>Source-linked result cards</h3>
+            <p>Keeps the public source page, candidate image, review state, and supporting context together.</p>
           </article>
 
           <article class="card">
-            <h3>False positive reduction</h3>
-            <p>Designed to reduce false positives in media integrity workflows.</p>
+            <span class="card-kicker">Routes</span>
+            <h3>Public route expansion</h3>
+            <p>Qualified visual leads can reveal additional public routes for bounded follow-up review.</p>
           </article>
 
           <article class="card">
-            <h3>Lawful evidence support</h3>
-            <p>Organises possible evidence leads for appropriate lawful review processes.</p>
+            <span class="card-kicker">Review</span>
+            <h3>Human-in-the-loop by design</h3>
+            <p>TraceAI surfaces possible evidence leads; a person remains responsible for interpretation and decisions.</p>
           </article>
 
           <article class="card">
-            <h3>Privacy-preserving media integrity processes</h3>
-            <p>Focused on responsible, privacy-preserving media integrity workflows.</p>
+            <span class="card-kicker">Privacy</span>
+            <h3>Review-safe outputs</h3>
+            <p>Internal biometric and diagnostic data are kept separate from user-facing evidence outputs.</p>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section muted">
-      <div class="container split">
+      <div class="container split feature-split">
         <div>
-          <h2>Current Status</h2>
+          <p class="section-label">Current status</p>
+          <h2>A working cloud prototype</h2>
           <p>
-            TraceAI is currently at working technical prototype stage and is under active development.
+            TraceAI is under active development with a working web application, public-source discovery,
+            visual candidate comparison, source-linked evidence cards, and bounded route expansion.
           </p>
           <p>
-            The project is moving toward MVP hardening, cloud deployment, reliability testing,
-            and safer evidence workflow development.
+            Current engineering work is focused on broader provider-independent visual acquisition,
+            controlled vector search, reliability, latency, and production hardening.
           </p>
+          <a class="text-link" href="https://app.facewipeai.com">Open the current TraceAI application →</a>
         </div>
 
-        <div>
-          <h2>Intellectual Property</h2>
+        <div class="panel">
+          <p class="section-label">Intellectual property</p>
+          <h2>UK patent application filed</h2>
           <p>
-            Facewipe LTD has filed UK patent application GB2612078.2, titled
-            “Visual Evidence Review System”, relating to TraceAI.
+            Facewipe LTD has filed UK patent application <strong>GB2612078.2</strong>, titled
+            <strong>“Visual Evidence Review System”</strong>, relating to TraceAI.
           </p>
+          <p class="panel-note">Patent application filed. No representation of grant or enforceability is made.</p>
         </div>
       </div>
     </section>
@@ -114,24 +158,25 @@
     <section class="section">
       <div class="container split">
         <div>
-          <h2>Responsible Use</h2>
+          <p class="section-label">Responsible use</p>
+          <h2>Evidence leads, not automatic conclusions</h2>
           <p>
-            TraceAI does not make automatic ownership, infringement, identity, or takedown conclusions.
+            TraceAI does not automatically determine identity, ownership, infringement, illegality,
+            or whether any content should be removed.
           </p>
           <p>
-            All possible evidence leads require human review.
+            Results are presented as possible visual evidence leads and require human review in their source context.
           </p>
         </div>
 
-        <div>
-          <h2>Prototype Access</h2>
-          <p>
-            A non-confidential prototype walkthrough can be provided on request for verified
-            partners, programme teams, and relevant organisations.
-          </p>
-          <p>
-            Contact: <a href="mailto:contact@facewipeai.com">contact@facewipeai.com</a>
-          </p>
+        <div class="cta-card">
+          <p class="section-label">Access</p>
+          <h2>Try TraceAI</h2>
+          <p>Use the current web application or contact Facewipe LTD for partnership and programme enquiries.</p>
+          <div class="cta-actions">
+            <a class="button" href="https://app.facewipeai.com">Open TraceAI</a>
+            <a class="text-link" href="mailto:contact@facewipeai.com">contact@facewipeai.com →</a>
+          </div>
         </div>
       </div>
     </section>
@@ -139,7 +184,10 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>© Facewipe LTD</span>
+      <div>
+        <strong>Facewipe LTD</strong>
+        <span class="footer-note"> · TraceAI visual evidence search</span>
+      </div>
       <a href="mailto:contact@facewipeai.com">contact@facewipeai.com</a>
     </div>
   </footer>
