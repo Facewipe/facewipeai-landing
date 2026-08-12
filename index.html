@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TraceAI — Visual Evidence Search by Facewipe LTD</title>
-  <meta name="description" content="TraceAI turns a reference photo into source-linked public visual evidence leads for human review.">
+  <title>TraceAI — Visual Evidence Search</title>
+  <meta name="description" content="TraceAI turns a reference photo into source-linked public visual evidence leads for careful human review.">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
@@ -17,8 +17,7 @@
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#how">How it works</a>
-        <a href="#why">Why TraceAI</a>
-        <a href="#evidence">Evidence</a>
+        <a href="#evidence">What you review</a>
         <a href="#responsible">Responsible use</a>
       </nav>
     </div>
@@ -27,221 +26,178 @@
   <main id="top">
     <section class="hero">
       <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-a" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-b" aria-hidden="true"></div>
       <div class="container hero-layout">
         <div class="hero-copy">
           <p class="eyebrow">Visual-first public evidence search</p>
-          <h1>Find public visual evidence from a single photo.</h1>
+          <h1>From a photo to a <span>public visual trail.</span></h1>
           <p class="hero-text">
-            Upload a reference photo and explore possible public visual matches, source-linked evidence leads,
-            and visual search routes across public sources — organised for careful human review.
+            TraceAI helps turn scattered public visual results into structured, source-linked evidence leads —
+            so you can review possible matches with the original public context still attached.
           </p>
           <a class="primary-cta" href="https://app.facewipeai.com">Try TraceAI <span aria-hidden="true">→</span></a>
           <div class="trust-points" aria-label="TraceAI principles">
-            <span><i class="mini-icon target"></i>Visual-first search</span>
-            <span><i class="mini-icon shield"></i>Public source evidence</span>
-            <span><i class="mini-icon person"></i>Human review required</span>
+            <span>Photo-first search</span>
+            <span>Source-linked evidence</span>
+            <span>Human review first</span>
           </div>
         </div>
 
-        <div class="hero-visual" aria-label="Illustration of TraceAI search results">
-          <div class="orbit orbit-a"></div>
-          <div class="orbit orbit-b"></div>
-          <div class="reference-card floating-card">
-            <span class="tiny-label">Reference photo</span>
-            <div class="photo-scene photo-scene-a" aria-hidden="true">
-              <span class="building b1"></span><span class="building b2"></span><span class="building b3"></span>
-              <span class="street"></span><span class="figure f1"></span><span class="figure f2"></span><span class="figure f3"></span>
-            </div>
-            <span class="upload-chip">Visual input</span>
-          </div>
-
-          <div class="app-window">
-            <div class="app-topbar">
-              <div class="app-brand"><span class="app-dot"></span>TraceAI</div>
-              <div class="window-dots"><i></i><i></i><i></i></div>
-            </div>
-            <div class="app-shell">
-              <aside class="app-sidebar">
-                <span class="side-active">⌕ <b>New search</b></span>
-                <span>▦ <b>Dashboard</b></span>
-                <span>◷ <b>Search history</b></span>
-                <span>◇ <b>Saved routes</b></span>
-              </aside>
-              <div class="app-main">
-                <div class="result-head">
-                  <div><strong>Search results</strong><small><i></i> Completed · review ready</small></div>
-                  <span class="export-pill">Evidence view</span>
-                </div>
-                <div class="metrics">
-                  <div><small>Visual leads</small><strong>12</strong></div>
-                  <div><small>Sources checked</small><strong>48</strong></div>
-                  <div><small>Routes explored</small><strong>9</strong></div>
-                </div>
-                <div class="result-cards">
-                  <article class="result-card">
-                    <div class="result-photo photo-scene photo-scene-b" aria-hidden="true"><span class="sky"></span><span class="tower t1"></span><span class="tower t2"></span><span class="figure f1"></span></div>
-                    <div class="score-row"><span class="score high">High</span><b>92%</b></div>
-                    <strong>Possible visual match</strong>
-                    <small>Public source · linked context</small>
-                  </article>
-                  <article class="result-card">
-                    <div class="result-photo photo-scene photo-scene-c" aria-hidden="true"><span class="sky"></span><span class="tower t1"></span><span class="tower t2"></span><span class="figure f2"></span></div>
-                    <div class="score-row"><span class="score medium">Review</span><b>68%</b></div>
-                    <strong>Related public route</strong>
-                    <small>Source page preserved</small>
-                  </article>
-                  <article class="result-card">
-                    <div class="result-photo photo-scene photo-scene-d" aria-hidden="true"><span class="sky"></span><span class="tower t1"></span><span class="tower t2"></span><span class="figure f3"></span></div>
-                    <div class="score-row"><span class="score low">Low</span><b>34%</b></div>
-                    <strong>Technical candidate</strong>
-                    <small>Human review required</small>
-                  </article>
-                </div>
-                <div class="route-line" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-              </div>
-            </div>
-          </div>
+        <div class="hero-visual-wrap">
+          <div class="visual-label visual-label-top">REFERENCE PHOTO</div>
+          <img class="hero-art" src="traceai-hero.svg" alt="Illustration of TraceAI turning a reference photo into source-linked visual evidence leads">
+          <div class="visual-label visual-label-bottom">PUBLIC SOURCES → VISUAL LEADS → REVIEW</div>
         </div>
       </div>
     </section>
 
-    <section class="how section" id="how">
+    <section class="signal-strip" aria-label="TraceAI product principles">
+      <div class="container signal-grid">
+        <div><strong>Visual-first</strong><span>Start with what you can see.</span></div>
+        <div><strong>Source-linked</strong><span>Keep public context with each lead.</span></div>
+        <div><strong>Review-focused</strong><span>Possible evidence, not automatic conclusions.</span></div>
+        <div><strong>Bounded discovery</strong><span>Search routes stay controlled and reviewable.</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
       <div class="container">
         <div class="section-heading centered">
           <p class="section-kicker">How it works</p>
-          <h2>From a photo to a reviewable public trail.</h2>
-          <p>TraceAI keeps the search visual, the sources visible, and the final judgement with the reviewer.</p>
+          <h2>A visual search workflow you can understand.</h2>
+          <p>Three simple stages keep the reference photo, public-source discovery and evidence review clearly separated.</p>
         </div>
+
         <div class="steps-grid">
           <article class="step-card">
-            <span class="step-index">1</span>
-            <div class="step-art upload-art" aria-hidden="true"><span class="sheet back"></span><span class="sheet front"><i></i></span><b>↑</b></div>
-            <h3>Upload reference photos</h3>
-            <p>Start with one or more photos depicting the same person.</p>
+            <div class="step-visual upload-visual" aria-hidden="true">
+              <div class="mini-photo-card">
+                <span class="mini-sky"></span>
+                <span class="mini-building one"></span>
+                <span class="mini-building two"></span>
+                <span class="mini-person"></span>
+              </div>
+              <span class="step-badge">01</span>
+            </div>
+            <h3>Upload a reference photo</h3>
+            <p>Begin with one or more photos depicting the same person.</p>
           </article>
+
           <article class="step-card">
-            <span class="step-index">2</span>
-            <div class="step-art network-art" aria-hidden="true"><span class="globe"></span><i class="n1"></i><i class="n2"></i><i class="n3"></i><i class="n4"></i></div>
-            <h3>Search public visual routes</h3>
-            <p>Possible visual candidates and public source routes are gathered and compared.</p>
+            <div class="step-visual search-visual" aria-hidden="true">
+              <span class="search-orbit o1"></span>
+              <span class="search-orbit o2"></span>
+              <span class="search-core"></span>
+              <span class="search-node n1"></span>
+              <span class="search-node n2"></span>
+              <span class="search-node n3"></span>
+              <span class="step-badge">02</span>
+            </div>
+            <h3>Explore public visual routes</h3>
+            <p>TraceAI gathers possible visual candidates and preserves where each route came from.</p>
           </article>
+
           <article class="step-card">
-            <span class="step-index">3</span>
-            <div class="step-art evidence-art" aria-hidden="true"><span></span><span></span><span></span><b>✓</b></div>
-            <h3>Review source-linked evidence</h3>
-            <p>See possible matches together with source links, context, and review state.</p>
+            <div class="step-visual review-visual" aria-hidden="true">
+              <div class="mini-evidence-card card-a"><span></span><b>Possible match</b><i></i></div>
+              <div class="mini-evidence-card card-b"><span></span><b>Source link</b><i></i></div>
+              <span class="step-badge">03</span>
+            </div>
+            <h3>Review evidence leads</h3>
+            <p>Possible matches stay attached to source links, context and review status.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="why section soft" id="why">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-kicker">Why TraceAI</p>
-          <h2>Built to make visual search easier to understand.</h2>
-        </div>
-        <div class="feature-grid">
-          <article class="feature-card">
-            <div class="feature-visual search-visual" aria-hidden="true"><span class="mini-photo"></span><span class="magnifier"></span></div>
-            <h3>Visual-first search</h3>
-            <p>Start with what you can see instead of depending on names, handles, or text clues.</p>
-          </article>
-          <article class="feature-card">
-            <div class="feature-visual source-visual" aria-hidden="true"><span class="browser-bar">https://public-source.example/</span><i></i><i></i><i></i></div>
-            <h3>Preserved source context</h3>
-            <p>Evidence stays tied to the public page and image route that produced it.</p>
-          </article>
-          <article class="feature-card">
-            <div class="feature-visual route-visual" aria-hidden="true"><i class="r1"></i><i class="r2"></i><i class="r3"></i><i class="r4"></i><span></span></div>
-            <h3>Route-based discovery</h3>
-            <p>Qualified visual leads can open additional public routes for bounded follow-up review.</p>
-          </article>
-          <article class="feature-card">
-            <div class="feature-visual review-visual" aria-hidden="true"><span><b></b><i class="high"></i></span><span><b></b><i class="medium"></i></span><span><b></b><i class="low"></i></span></div>
-            <h3>Review-focused results</h3>
-            <p>Possible evidence leads are organised clearly rather than presented as automatic conclusions.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="evidence section" id="evidence">
+    <section class="section evidence-section" id="evidence">
       <div class="container evidence-layout">
-        <div class="evidence-panel">
-          <div class="panel-title"><div><small>TraceAI evidence view</small><strong>Possible visual matches</strong></div><span>Human review</span></div>
-          <div class="evidence-body">
-            <aside class="filters">
-              <strong>Review filters</strong>
-              <label><i class="check"></i>Face-qualified leads</label>
-              <label><i class="check"></i>Source-linked routes</label>
-              <label><i></i>Technical candidates</label>
-              <small>Source type</small>
-              <label>Public pages <b>18</b></label>
-              <label>Images <b>12</b></label>
-              <label>Profiles <b>7</b></label>
-            </aside>
-            <div class="evidence-results">
-              <div class="result-row">
-                <div class="row-thumb photo-scene photo-scene-b"><span class="tower t1"></span><span class="tower t2"></span><span class="figure f1"></span></div>
-                <div class="row-copy"><span class="score high">Qualified visual lead</span><strong>Public source image</strong><a href="#evidence">source.example/public-page</a><small>Source context preserved · human review required</small></div>
-                <span class="open-source">Source</span>
-              </div>
-              <div class="result-row">
-                <div class="row-thumb photo-scene photo-scene-c"><span class="tower t1"></span><span class="tower t2"></span><span class="figure f2"></span></div>
-                <div class="row-copy"><span class="score medium">Review route</span><strong>Related public image</strong><a href="#evidence">public.example/visual-route</a><small>Independent comparison pending</small></div>
-                <span class="open-source">Review</span>
-              </div>
-              <div class="result-row muted-row">
-                <div class="row-thumb photo-scene photo-scene-d"><span class="tower t1"></span><span class="tower t2"></span><span class="figure f3"></span></div>
-                <div class="row-copy"><span class="score low">Technical</span><strong>Unconfirmed candidate</strong><a href="#evidence">image.example/candidate</a><small>Not independently confirmed</small></div>
-                <span class="open-source">Inspect</span>
-              </div>
+        <div class="evidence-copy">
+          <p class="section-kicker">What you review</p>
+          <h2>Not just a result. A trail back to the source.</h2>
+          <p class="lead">A useful visual lead should tell you where it came from, how it was reached and what still needs human judgement.</p>
+
+          <div class="benefit-list">
+            <div class="benefit-item">
+              <span class="benefit-icon">01</span>
+              <div><strong>Possible visual matches</strong><p>Images that may be relevant to the reference photos.</p></div>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">02</span>
+              <div><strong>Public source links</strong><p>The source page stays attached to the evidence lead.</p></div>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">03</span>
+              <div><strong>Review state</strong><p>Qualified leads, routes and technical candidates remain clearly separated.</p></div>
             </div>
           </div>
         </div>
 
-        <div class="evidence-copy">
-          <p class="section-kicker">What you review</p>
-          <h2>Evidence, not a black box.</h2>
-          <p class="lead">TraceAI is designed to show where a lead came from and why it deserves attention.</p>
-          <ul class="benefit-list">
-            <li><span class="benefit-icon image-icon"></span><div><strong>Possible visual matches</strong><p>Images that may be visually relevant to the reference photos.</p></div></li>
-            <li><span class="benefit-icon link-icon"></span><div><strong>Source links</strong><p>Direct public source routes stay attached to the evidence lead.</p></div></li>
-            <li><span class="benefit-icon context-icon"></span><div><strong>Public context</strong><p>Review the source context around a possible visual lead.</p></div></li>
-            <li><span class="benefit-icon shield-icon"></span><div><strong>No automatic identity claims</strong><p>TraceAI surfaces evidence leads; humans decide what the evidence means.</p></div></li>
-          </ul>
+        <div class="evidence-showcase" aria-label="Example TraceAI evidence cards">
+          <div class="showcase-topbar">
+            <div><span class="live-dot"></span><strong>TraceAI evidence view</strong></div>
+            <span>Human review</span>
+          </div>
+          <div class="showcase-body">
+            <article class="showcase-card featured">
+              <div class="showcase-photo scene-one" aria-hidden="true"><span class="person-head"></span><span class="person-body"></span></div>
+              <div class="showcase-card-copy">
+                <span class="status-pill qualified">Possible visual lead</span>
+                <strong>Public source image</strong>
+                <small>Source page preserved</small>
+                <div class="source-line"><span></span> public source / visual route</div>
+              </div>
+            </article>
+            <article class="showcase-card">
+              <div class="showcase-photo scene-two" aria-hidden="true"><span class="person-head"></span><span class="person-body"></span></div>
+              <div class="showcase-card-copy">
+                <span class="status-pill review">Review route</span>
+                <strong>Related public image</strong>
+                <small>Independent comparison pending</small>
+                <div class="source-line"><span></span> source context available</div>
+              </div>
+            </article>
+            <article class="showcase-card dimmed">
+              <div class="showcase-photo scene-three" aria-hidden="true"><span class="person-head"></span><span class="person-body"></span></div>
+              <div class="showcase-card-copy">
+                <span class="status-pill technical">Technical candidate</span>
+                <strong>Unconfirmed image</strong>
+                <small>Not independently confirmed</small>
+                <div class="source-line"><span></span> kept outside qualified leads</div>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="responsible section" id="responsible">
+    <section class="section responsible" id="responsible">
       <div class="container responsible-card">
         <div>
-          <p class="section-kicker">Responsible use</p>
-          <h2>Built for careful review.</h2>
+          <p class="section-kicker light">Responsible use</p>
+          <h2>Evidence leads, not automatic conclusions.</h2>
           <p>TraceAI helps discover and organise public visual evidence leads. It does not automatically determine identity, ownership, infringement, illegality, or whether content should be removed.</p>
-          <div class="responsible-points">
-            <span>◎ Public-source oriented</span>
-            <span>◉ Human review required</span>
-            <span>◇ Evidence-led workflow</span>
-          </div>
         </div>
-        <div class="shield-art" aria-hidden="true"><span>✓</span></div>
+        <div class="responsible-mark" aria-hidden="true">
+          <span class="shield-ring"></span>
+          <span class="shield-check">✓</span>
+          <small>Human review required</small>
+        </div>
       </div>
     </section>
 
     <section class="status-band">
-      <div class="container status-grid">
+      <div class="container status-inner">
         <div>
-          <p class="section-kicker light">Current status</p>
-          <h2>Working cloud prototype.</h2>
-          <p>TraceAI is under active development with public-source discovery, visual candidate comparison, source-linked evidence cards, bounded route expansion, and controlled vector search work in progress.</p>
+          <p class="section-kicker light">Working prototype</p>
+          <h2>TraceAI is live and under active development.</h2>
+          <p>Current work includes public-source discovery, visual candidate comparison, source-linked evidence cards, bounded route expansion and controlled vector-search infrastructure.</p>
         </div>
-        <div class="patent-card">
-          <small>Intellectual property</small>
-          <strong>UK patent application filed</strong>
-          <p>Facewipe LTD has filed UK patent application <b>GB2612078.2</b>, titled “Visual Evidence Review System”, relating to TraceAI.</p>
+        <div class="patent-note">
+          <small>UK patent application</small>
+          <strong>GB2612078.2</strong>
+          <span>Visual Evidence Review System</span>
         </div>
       </div>
     </section>
@@ -250,8 +206,8 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand"><span class="brand-symbol small" aria-hidden="true"><span></span></span><strong>Facewipe LTD</strong></div>
+      <span>TraceAI visual evidence search</span>
       <a href="mailto:contact@facewipeai.com">contact@facewipeai.com</a>
-      <span>Patent filed: GB2612078.2</span>
     </div>
   </footer>
 </body>
