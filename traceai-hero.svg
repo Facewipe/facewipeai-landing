@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">TraceAI visual evidence search illustration</title>
+  <desc id="desc">A stylised reference photo, public source cards and a magnifying lens showing a possible visual evidence lead.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101f"/>
+      <stop offset="0.55" stop-color="#0b1730"/>
+      <stop offset="1" stop-color="#111c3d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7b5cff"/>
+      <stop offset="1" stop-color="#2f6bff"/>
+    </linearGradient>
+    <linearGradient id="photo1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8c8e8"/>
+      <stop offset="0.46" stop-color="#7688a8"/>
+      <stop offset="0.47" stop-color="#4b5870"/>
+      <stop offset="1" stop-color="#1b2435"/>
+    </linearGradient>
+    <linearGradient id="photo2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcc5ba"/>
+      <stop offset="0.48" stop-color="#9a7e73"/>
+      <stop offset="0.49" stop-color="#4a3e43"/>
+      <stop offset="1" stop-color="#1f2735"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020617" flood-opacity=".28"/>
+    </filter>
+    <clipPath id="lensClip"><circle cx="1118" cy="432" r="245"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="1000" rx="46" fill="url(#bg)"/>
+  <circle cx="1320" cy="90" r="360" fill="#335cff" opacity=".08"/>
+  <circle cx="220" cy="850" r="330" fill="#7a5cff" opacity=".07"/>
+  <g opacity=".12" stroke="#7694ff" stroke-width="1">
+    <path d="M0 200H1600M0 400H1600M0 600H1600M0 800H1600"/>
+    <path d="M200 0V1000M400 0V1000M600 0V1000M800 0V1000M1000 0V1000M1200 0V1000M1400 0V1000"/>
+  </g>
+
+  <g opacity=".28" filter="url(#softShadow)">
+    <g transform="translate(730 110) rotate(4)">
+      <rect width="290" height="160" rx="18" fill="#17233c" stroke="#44547a"/>
+      <rect x="18" y="18" width="96" height="92" rx="12" fill="url(#photo1)"/>
+      <circle cx="66" cy="56" r="17" fill="#d1a08a"/>
+      <path d="M42 104c6-25 42-25 49 0" fill="#202737"/>
+      <rect x="132" y="30" width="124" height="9" rx="4" fill="#73809d"/>
+      <rect x="132" y="52" width="88" height="7" rx="4" fill="#53617c"/>
+      <rect x="132" y="78" width="106" height="7" rx="4" fill="#53617c"/>
+      <rect x="18" y="130" width="130" height="7" rx="4" fill="#53617c"/>
+    </g>
+    <g transform="translate(1035 95) rotate(7)">
+      <rect width="310" height="170" rx="18" fill="#17233c" stroke="#44547a"/>
+      <rect x="18" y="18" width="110" height="100" rx="12" fill="url(#photo2)"/>
+      <circle cx="73" cy="56" r="18" fill="#c99882"/>
+      <path d="M45 112c8-28 48-28 57 0" fill="#242736"/>
+      <rect x="146" y="30" width="132" height="9" rx="4" fill="#73809d"/>
+      <rect x="146" y="54" width="102" height="7" rx="4" fill="#53617c"/>
+      <rect x="146" y="80" width="118" height="7" rx="4" fill="#53617c"/>
+      <rect x="18" y="138" width="162" height="7" rx="4" fill="#53617c"/>
+    </g>
+    <g transform="translate(1250 285) rotate(8)">
+      <rect width="270" height="150" rx="18" fill="#17233c" stroke="#44547a"/>
+      <rect x="18" y="18" width="92" height="84" rx="12" fill="url(#photo1)"/>
+      <circle cx="63" cy="52" r="15" fill="#cca08b"/>
+      <path d="M40 96c7-21 38-21 46 0" fill="#202737"/>
+      <rect x="128" y="30" width="112" height="9" rx="4" fill="#73809d"/>
+      <rect x="128" y="54" width="82" height="7" rx="4" fill="#53617c"/>
+      <rect x="18" y="122" width="140" height="7" rx="4" fill="#53617c"/>
+    </g>
+    <g transform="translate(680 335) rotate(-4)">
+      <rect width="260" height="150" rx="18" fill="#17233c" stroke="#44547a"/>
+      <rect x="18" y="18" width="88" height="84" rx="12" fill="url(#photo2)"/>
+      <circle cx="61" cy="50" r="15" fill="#c99984"/>
+      <path d="M39 96c7-21 37-21 45 0" fill="#242736"/>
+      <rect x="124" y="30" width="105" height="9" rx="4" fill="#73809d"/>
+      <rect x="124" y="54" width="78" height="7" rx="4" fill="#53617c"/>
+      <rect x="18" y="122" width="136" height="7" rx="4" fill="#53617c"/>
+    </g>
+  </g>
+
+  <g transform="translate(115 188)" filter="url(#shadow)">
+    <rect width="420" height="520" rx="30" fill="#fff"/>
+    <text x="34" y="54" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#26324a">Reference photo</text>
+    <rect x="34" y="82" width="352" height="330" rx="24" fill="url(#photo1)"/>
+    <rect x="34" y="82" width="352" height="330" rx="24" fill="none" stroke="#d8e0f0" stroke-width="2"/>
+    <rect x="52" y="117" width="86" height="175" rx="5" fill="#26324a" opacity=".88"/>
+    <rect x="146" y="157" width="72" height="135" rx="5" fill="#344259" opacity=".9"/>
+    <rect x="282" y="112" width="82" height="180" rx="5" fill="#1f2b42" opacity=".9"/>
+    <path d="M110 412L220 260 310 412" fill="#38465d" opacity=".65"/>
+    <circle cx="225" cy="241" r="31" fill="#d0a08a"/>
+    <path d="M173 359c8-74 96-74 105 0" fill="#172033"/>
+    <rect x="34" y="442" width="150" height="40" rx="20" fill="#eef2ff"/>
+    <circle cx="58" cy="462" r="7" fill="#4f68ff"/>
+    <text x="75" y="469" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#4455d8">Visual input</text>
+  </g>
+
+  <path d="M555 450C650 450 705 450 790 450" stroke="#5b73ff" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 14" opacity=".8"/>
+  <circle cx="590" cy="450" r="8" fill="#6e63ff"/>
+  <circle cx="690" cy="450" r="8" fill="#5a73ff"/>
+  <circle cx="780" cy="450" r="8" fill="#3e7cff"/>
+  <text x="592" y="420" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#aab8ff">visual search</text>
+
+  <g clip-path="url(#lensClip)">
+    <rect x="840" y="145" width="560" height="575" fill="#f8faff"/>
+    <rect x="875" y="180" width="490" height="64" rx="16" fill="#0c1731"/>
+    <circle cx="910" cy="212" r="13" fill="url(#glow)"/>
+    <text x="936" y="220" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#fff">TraceAI evidence view</text>
+    <rect x="875" y="274" width="490" height="196" rx="24" fill="#fff" stroke="#dfe5f1" stroke-width="2"/>
+    <rect x="898" y="297" width="156" height="150" rx="18" fill="url(#photo2)"/>
+    <circle cx="976" cy="344" r="26" fill="#cc9b84"/>
+    <path d="M932 430c10-66 80-66 89 0" fill="#242736"/>
+    <rect x="1080" y="300" width="151" height="32" rx="16" fill="#e9e5ff"/>
+    <text x="1097" y="321" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#6546e8">Possible visual match</text>
+    <text x="1080" y="360" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1d2939">Public source image</text>
+    <text x="1080" y="390" font-family="Arial, sans-serif" font-size="15" fill="#667085">Source-linked context</text>
+    <text x="1080" y="420" font-family="Arial, sans-serif" font-size="15" fill="#667085">Human review required</text>
+    <rect x="875" y="495" width="490" height="86" rx="20" fill="#eef3ff"/>
+    <circle cx="910" cy="538" r="16" fill="#315fff"/>
+    <path d="M902 538l6 7 12-16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="940" y="532" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1d2939">Source preserved</text>
+    <text x="940" y="557" font-family="Arial, sans-serif" font-size="14" fill="#667085">Review the lead in its public context</text>
+    <rect x="875" y="602" width="235" height="80" rx="18" fill="#fff" stroke="#dfe5f1"/>
+    <text x="898" y="633" font-family="Arial, sans-serif" font-size="14" fill="#667085">Sources checked</text>
+    <text x="898" y="662" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1d2939">48</text>
+    <rect x="1130" y="602" width="235" height="80" rx="18" fill="#fff" stroke="#dfe5f1"/>
+    <text x="1153" y="633" font-family="Arial, sans-serif" font-size="14" fill="#667085">Visual leads</text>
+    <text x="1153" y="662" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1d2939">12</text>
+  </g>
+
+  <circle cx="1118" cy="432" r="252" fill="none" stroke="#0a0e16" stroke-width="38" opacity=".95" filter="url(#shadow)"/>
+  <circle cx="1118" cy="432" r="245" fill="none" stroke="#aeb8ca" stroke-width="8" opacity=".7"/>
+  <g transform="translate(1285 603) rotate(-42)">
+    <rect x="0" y="0" width="76" height="370" rx="38" fill="#0a0e16" filter="url(#softShadow)"/>
+    <rect x="13" y="18" width="50" height="300" rx="25" fill="#202938"/>
+    <rect x="19" y="40" width="12" height="240" rx="6" fill="#687386" opacity=".42"/>
+  </g>
+
+  <g transform="translate(90 770)">
+    <rect width="1420" height="128" rx="28" fill="#0d1830" stroke="#26365b"/>
+    <g transform="translate(42 34)">
+      <circle cx="28" cy="28" r="28" fill="#1a2d61"/>
+      <path d="M19 29l7 7 14-17" fill="none" stroke="#82a0ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="74" y="24" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#fff">Source-linked</text>
+      <text x="74" y="48" font-family="Arial, sans-serif" font-size="14" fill="#9facbf">Keep context with every lead</text>
+    </g>
+    <g transform="translate(500 34)">
+      <circle cx="28" cy="28" r="28" fill="#1a2d61"/>
+      <path d="M18 25h20M18 33h20" stroke="#82a0ff" stroke-width="4" stroke-linecap="round"/>
+      <text x="74" y="24" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#fff">Visual-first</text>
+      <text x="74" y="48" font-family="Arial, sans-serif" font-size="14" fill="#9facbf">Start with a reference photo</text>
+    </g>
+    <g transform="translate(955 34)">
+      <circle cx="28" cy="28" r="28" fill="#1a2d61"/>
+      <circle cx="28" cy="22" r="8" fill="none" stroke="#82a0ff" stroke-width="3"/>
+      <path d="M15 42c4-14 22-14 26 0" fill="none" stroke="#82a0ff" stroke-width="3" stroke-linecap="round"/>
+      <text x="74" y="24" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#fff">Human review</text>
+      <text x="74" y="48" font-family="Arial, sans-serif" font-size="14" fill="#9facbf">Evidence leads, not conclusions</text>
+    </g>
+  </g>
+</svg>
